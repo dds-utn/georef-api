@@ -18,7 +18,7 @@ public class ServicioGeoref {
 
     private ServicioGeoref() {
         this.retrofit = new Retrofit.Builder()
-                .baseUrl("https://apis.datos.gob.ar/")
+                .baseUrl("https://apis.datos.gob.ar/georef/api/")
                 .addConverterFactory(GsonConverterFactory.create())
                 .build();
     }
