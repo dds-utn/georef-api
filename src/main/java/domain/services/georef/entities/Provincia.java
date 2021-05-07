@@ -1,4 +1,4 @@
-package domain.model;
+package domain.services.georef.entities;
 
 public class Provincia {
     public int id;

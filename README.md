@@ -14,7 +14,7 @@ Las dependencias de Maven que se deberán tener en cuenta para su utilización s
 <dependency>
   <groupId>com.squareup.retrofit2</groupId>
   <artifactId>retrofit</artifactId>
-  <version>2.5.0</version>
+  <version>2.9.0</version>
 </dependency>
 ```
 
@@ -22,7 +22,7 @@ Las dependencias de Maven que se deberán tener en cuenta para su utilización s
 <dependency>
   <groupId>com.squareup.retrofit2</groupId>
   <artifactId>converter-gson</artifactId>
-  <version>2.5.0</version>
+  <version>2.9.0</version>
 </dependency>
 ```
 

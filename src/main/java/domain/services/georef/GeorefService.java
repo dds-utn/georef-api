@@ -1,7 +1,7 @@
-package domain.services;
+package domain.services.georef;
 
-import domain.model.ListadoDeMunicipios;
-import domain.model.ListadoDeProvincias;
+import domain.services.georef.entities.ListadoDeMunicipios;
+import domain.services.georef.entities.ListadoDeProvincias;
 import retrofit2.Call;
 import retrofit2.http.GET;
 import retrofit2.http.Query;

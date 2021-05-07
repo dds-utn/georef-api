@@ -1,4 +1,4 @@
-package domain.model;
+package domain.services.georef.entities;
 
 import java.util.List;
 
