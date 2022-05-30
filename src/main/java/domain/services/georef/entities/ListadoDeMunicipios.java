@@ -9,6 +9,10 @@ public class ListadoDeMunicipios {
     public Parametro parametros;
     public List<Municipio> municipios;
 
+    public List<Municipio> getMunicipios() {
+        return municipios;
+    }
+
     private class Parametro {
         public List<String> campos;
         public int max;

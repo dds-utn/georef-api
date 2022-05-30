@@ -1,4 +1,4 @@
-package domain.services.georef;
+package domain.services.georef.adapters;
 
 import domain.services.georef.entities.ListadoDeMunicipios;
 import domain.services.georef.entities.ListadoDeProvincias;

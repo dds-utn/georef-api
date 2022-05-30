@@ -16,6 +16,10 @@ public class ListadoDeProvincias {
                 .findFirst();
     }
 
+    public List<Provincia> getProvincias() {
+        return provincias;
+    }
+
     private class Parametro {
         public List<String> campos;
     }

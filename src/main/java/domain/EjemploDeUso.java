@@ -1,5 +1,6 @@
 package domain;
 
+import domain.services.georef.adapters.ServicioGeorefRetrofitAdapter;
 import domain.services.georef.entities.ListadoDeMunicipios;
 import domain.services.georef.entities.ListadoDeProvincias;
 import domain.services.georef.entities.Municipio;
@@ -18,6 +19,8 @@ public class EjemploDeUso {
 
     public static void main(String[] args) throws IOException {
         ServicioGeoref servicioGeoref = ServicioGeoref.instancia();
+        servicioGeoref.setAdapter(new ServicioGeorefRetrofitAdapter());
+
         System.out.println("Seleccione una de las siguientes provincias, ingresando su id:");
 
         ListadoDeProvincias listadoDeProvinciasArgentinas = servicioGeoref.listadoDeProvincias();
